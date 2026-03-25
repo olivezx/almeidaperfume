@@ -1,11 +1,38 @@
+/* reset CSS */
+*   {
+  /* magem = Externa  */
+  margin: 0;
+}
+
 
 body {   
   
 
 /* cor fundo  */
-background-color: rgb(194, 115, 115);
+background-color: rgb(240, 212, 255);
   
   /* cor tertos */
- color: #ffffff;
+ color: #b56bcc;
 
 }
+
+/* seletor para os <A> */
+  a { 
+    /* propriedade e VALOR  */
+    text-decoration: none;
+     color: rgb(186, 143, 212);
+  }
+  
+
+    
+
+  /* HEADER = cabeçalho */
+  header { 
+    /* ROW */
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center;
+    background-color: #fff;
+    /* largura ou comprimento  */
+    width: 100%;
+  }
