@@ -12,8 +12,8 @@
 
 
   <!-- css -->
-   <link rel="stylesheet" href="css/estilo.css">
-   
+  <link rel="stylesheet" href="css/estilo.css">
+
 </head>
 
 <body>
@@ -22,50 +22,55 @@
   <header>
 
     <!-- logo -->
-    <div>
-      <a href="http://shein.com">
+    <div class="head-logo">
+      <a href="#home">
         MEU LOGO
       </a>
     </div>
 
 
     <!-- Menu Desktop / PC  -->
-    <nav>
-      <ul>
+    <nav class="menu-desktop">
+      <ul class="menu">
         <li>
-          <a href="">
-            <span> inicio </span>
+          <!-- a href --> <!-- Criar Links -->
+          <a href="home" class="menu-link">
+            <span class="menu-texto"> inicio </span>
           </a>
         </li>
 
         <li>
-          <a href="">
-            <span> almeida perfume </span>
+          <a href="#produtos" class="menu-link">
+            <span class="menu-texto"> produtos </span>
           </a>
         </li>
-        <li>
-          <a href="">
-            <span> sobre </span>
-          </a>
-             </li>
 
-            <a href="">
-          <span> contato </span>
-        </a>
+        <li>
+          <a href="#sobre" class="menu-link"> 
+            <span class="menu-texto"> sobre </span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#contato" class="menu-link">
+            <span class="menu-texto"> contato </span>
+          </a>
+        </li>
+        
       </ul>
     </nav>
 
     <!--  icone Trocar Cor e tema  -->
 
-    <div>
+    <div class="header-toggle">
 
       <!-- icone sol ou lua  -->
-      <i class="bi bi-sun-fill"></i>
+      <i class="bi bi-sun-fill" id="toggleTheme"> </i>
 
       <!-- botao hamburger  -->
-       <button>
-          <i class="bi bi-list"></i>
-       </button>
+      <button class="btn-menu-mobili" id="menuHamburger" >
+        <i class="bi bi-list"></i>
+      </button>
 
 
 
