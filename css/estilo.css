@@ -38,3 +38,15 @@ background-color: rgb(240, 212, 255);
     /* largura ou comprimento  */
     width: 100%;
   }
+
+  /* UL */
+  .menu 
+  {
+    list-style: none;
+    /* lista horizontal */
+    display: flex;
+    /* espaço entre palavras */
+    gap: 1rem;
+  }
+
+  
