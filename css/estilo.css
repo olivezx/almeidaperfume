@@ -49,4 +49,33 @@ background-color: rgb(240, 212, 255);
     gap: 1rem;
   }
 
-  
+  /* tag NAV */ 
+   .menu-desktop {
+    display: none;
+     }
+    
+     /* daqui pra cima Versao Mobile */
+     /* ====================================    */
+
+
+
+
+     /* Responsivo */
+
+      /* Serve para as telas Maiores */
+      /* Telas Maiores que 768x */
+
+
+      @media (min-width: 768px) {   
+        header{ 
+          /* espaço inteiro */
+          padding: 1rem 6rem;
+          justify-content: ;
+          gap: ;
+        }
+
+        /* NAV */
+       .menu-desktop{ 
+        display: flex               ;
+      }
+      }
